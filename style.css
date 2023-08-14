@@ -166,3 +166,20 @@ body {
   border-radius: 100% / 0% 0% 70% 70%;
   background-color: var(--white);
 }
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
