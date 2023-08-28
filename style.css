@@ -183,3 +183,10 @@ body {
   font-size: 8.5vw;
   text-transform: uppercase;
 }
+h2 {
+  opacity: 0.4;
+  transition: 0.2s ease 0.1s;
+}
+h2:hover {
+  opacity: 1;
+}
