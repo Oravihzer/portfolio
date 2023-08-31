@@ -183,7 +183,10 @@ body {
   font-size: 8.5vw;
   text-transform: uppercase;
 }
-
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
 h5 {
   transition: 0.2s ease 0.1s;
 }
